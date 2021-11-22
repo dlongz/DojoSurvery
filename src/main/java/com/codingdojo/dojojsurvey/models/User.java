@@ -31,6 +31,13 @@ public class User {
 		this.comments = comments;
 	}
 	
+	public User(String name, String location, String language, String comments) {
+		super();
+		this.name = name;
+		this.location = location;
+		this.language = language;
+		this.comments = comments;
+	}
 	@Override
 	public String toString() {
 		return "User [name=" + name + ", location=" + location + ", language=" + language + ", comments=" + comments

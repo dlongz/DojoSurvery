@@ -22,19 +22,19 @@
 			<tbody>
 				<tr>
 					<td>Name</td>
-					<td>${yname}</td>
+					<td><c:out value="${user.name}" /></td>
 				</tr>
 				<tr>
 					<td>Dojo Location</td>
-					<td>${loc}</td>
+					<td><c:out value="${user.location}" /></td>
 				</tr>
 				<tr>
 					<td>Favorite Language</td>
-					<td>${flang}</td>
+					<td><c:out value="${user.language}" /></td>
 				</tr>
 				<tr>
 					<td>Comments</td>
-					<td>${comms}</td>
+					<td><c:out value="${user.comments}"/></td>
 				</tr>
 			</tbody>
 		</table>
